@@ -13,12 +13,6 @@
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Estudando Angular",
-      "autoria": "Matheus",
-      "modelo": "modelo3"
-    },
-    {
       "conteudo": "Pensamento teste",
       "autoria": "Eu",
       "modelo": "modelo2",
