@@ -33,6 +33,7 @@ export class ListarPensamentoComponent implements OnInit {
   filtro: string = '';
   favoritos:boolean = false
   listaFavoritos: Pensamento[] = []
+  titulo: string = 'Meu mural'
 
 
   constructor(
@@ -76,6 +77,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   listarFavoritos() {
+    this.titulo = 'Meus favoritos'
     this.favoritos = true
     this.haMaisPensamentos = true
     this.paginaAtual = 1
